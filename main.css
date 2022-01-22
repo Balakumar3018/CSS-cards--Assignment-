@@ -1,0 +1,113 @@
+
+:root{
+    --primary-colr : white;
+    --secondary-color:rgb(157, 0, 255);
+}
+/* Basic card style */
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow:row wrap;
+    width: 70%;
+    position: relative;
+}
+.class-container{
+    border: 1px solid black;
+    width: 270px;
+    height: 350px;
+    background-color: var(--primary-colr);
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+.card-image{
+    width: 100%;
+    height: 40%;
+    border-radius: 5px 5px 0px 0px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    cursor:pointer;
+    margin-left: 4px;
+}
+.card-para{
+    margin-left: 4px;
+}
+.card-options{
+    display: flex;
+    justify-content: space-around;
+}
+ button{
+    border-style: none;
+    background-color:var(--primary-colr);
+    cursor:pointer;
+    font-size: 17px;
+}
+.card-buttons{
+    color: var(--secondary-color);
+}
+
+/* text over image style */
+.over-text{
+     border: 1px solid black;
+    width: 270px;
+    height: 200px;
+    background-color: var(--primary-colr);
+    border-radius: 8px;
+    font-size: 15px;
+}
+.over{
+    position: absolute;
+    top: 25px;
+    color: white;
+}
+.over-image{
+    width: 100% ;
+    height: 50%;
+    border-radius: 5px;
+}
+/*  header image style */
+.header-image{
+    border-radius: 0px;
+    height: 100%;
+    width: 100;
+}
+.header-text{
+    height: 320px;
+}
+/* only button style */
+.only-buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+.only-buttons-card{
+    height: 320px;
+}
+
+/* only icons style */
+.only-icons-card{
+    display: flex;
+    justify-content: flex-end;
+}
+/* horizontal image and text style */
+.small-image{
+    width: 100% ;
+    height: 90%;
+    border-top-left-radius: 5px;
+}
+.horizontal-image-text{
+    height: 120px;
+    width: 30%;
+    
+}
+.image-text{
+    display: flex;
+    flex-direction: row;
+}
+.image-text1{
+   width: 35%;
+}
